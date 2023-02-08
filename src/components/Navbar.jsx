@@ -21,7 +21,7 @@ const Navbar = () => {
           {navbar.map((nav, index) => (
             <li
               key={nav.id}
-              className={`${index == nav.length - 1 ? "mr-0" : "mr-12"} navlist`}
+              className={`${index === nav.length - 1 ? "mr-0" : "mr-12"} navlist`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
           {navbar.map((nav, index) => (
             <li
               key={nav.id}
-              className={`${index == nav.length - 1 ? "mb-0" : "mb-3"} list`}
+              className={`${index === nav.length - 1 ? "mb-0" : "mb-3"} list`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
