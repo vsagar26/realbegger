@@ -4,18 +4,23 @@ export const navbar = [
   {
     id: "exchange",
     title: "EXCHANGE",
+    link: "https://www.instagram.com/",
+    
   },
   {
     id: "dealterm",
     title: "DEAL TERM",
+    link: "https://www.instagram.com/",
   },
   {
     id: "contactus",
     title: "CONTACT US",
+    link: "https://wa.me/917779996639?text=I'm%20intrested%20to%20buy%20betting%20account",
   },
   {
     id: "whatsapp",
     title: "WHATSAPP",
+    link: "https://wa.me/917779996639?text=I'm%20intrested%20to%20buy%20betting%20account",
   },
 ];
 

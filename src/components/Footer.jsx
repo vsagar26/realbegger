@@ -16,7 +16,7 @@ const Footer = () => {
               src={social.icon}
               alt={social.id}
               className={`w-[30px] h-[30px] object-contain cursor-pointer ${
-                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+                index !== socialMedia.length - 1 ? "mr-8" : "mr-0"
               }`}
               onClick={() => window.open(social.link)}
             />

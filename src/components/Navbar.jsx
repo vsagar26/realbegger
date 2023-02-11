@@ -28,6 +28,7 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
+      {/* Hamburger Menu */}
       <div className={`sm:hidden flex flex-1 justify-end items-center`}>
         <img
           src={toggle ? close : menu}
@@ -49,7 +50,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${index === nav.length - 1 ? "mb-0" : "mb-3"} list`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={`${nav.link}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
