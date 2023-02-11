@@ -26,7 +26,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className={`${style.flexCenter} flex-row gap-8 sm:gap-20 mt-12 ml-0`}>
+        <div className={`${style.flexCenter} flex-row gap-8 sm:gap-20 mt-12`}>
           <Button title="GET MASTER ID" type="button"/>
           <Button title="GET YOUR ID" type="button"/>
         </div>
