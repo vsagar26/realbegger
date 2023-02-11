@@ -1,6 +1,7 @@
 import { original } from "../assets";
 import { style } from "../style";
 import Button from "./Button";
+import "./neon.css";
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
               className={`${style.heading2} ${style.marginX} ${style.marginY} w-[450px] sm:w-[850px]`}
             >
               INDIA'S{" "}
-              <span className={`text-[#A66EFF] font-bold`}>LARGEST</span>
+              <span className={`text-[#A66EFF] font-bold neon`}>LARGEST </span>
               ONLINE BETTING
               
               PLATFORM PROVIDER

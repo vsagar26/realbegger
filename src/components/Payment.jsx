@@ -6,7 +6,7 @@ const Payment = () => {
   return (
     <section className={`flex flex-col pb-20`}>
       <div>
-        <h2 className={`${style.subheading} ${style.flexCenter} mt-12`}>
+        <h2 className={`${style.subheading} ${style.flexCenter} mt-12 boxanimation`}>
           AVAILABLE PAYMENT METHODS
         </h2>
       </div>
