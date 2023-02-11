@@ -1,5 +1,5 @@
 export const style = {
-    heading2: "font-poppins font-semibold xs:text-[44px] sm:text-[55px] md:text-[80px] text-[44px] text-white xs:leading-[48px] sm:leading-[90px] leading-[36.8px] w-full",
+    heading2: "font-poppins font-semibold xs:text-[44px] sm:text-[55px] md:text-[80px] text-[44px] text-white xs:leading-[48px] sm:leading-[90px] leading-[44px] w-full",
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
     subheading :"font-poppins font-semibold xs:text-[24px] sm:text-[40px] text-[24px] text-white xs:leading-[48px] sm:leading-[90px] leading-[36.8px] w-full",
   
