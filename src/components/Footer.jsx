@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="pb-8">
       <div className="w-full flex justify-around items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#ffffff]">
-        <p className="font-poppins font-normal text-center text-[16px] leading-[27px] text-white">
+        <p className="font-poppins font-normal text-center text-[16px] leading-[27px] text-[#353553]">
           Copyright Ⓒ 2023 Real Wagger. All Rights Reserved.
         </p>
 
