@@ -13,7 +13,7 @@ export const style = {
     marginX: "mx-10 sm:mx-20 ",
     marginY: "my-10 sm:my-20",
 
-    hoverEffect : "hover:bg-[#A66EFF] hover:text-[#ffffff] hover:border-[#652D92] active:bg-white active:text-[#A66EFF] active:border-[#A66EFF]",
+    hoverEffect : "hover:bg-[#5F259F] hover:text-[#ffffff] hover:border-[#652D92] active:bg-white active:text-[#5F259F] active:border-[#5F259F]",
     
     diamondHoverEffect : "hover:rounded-tl-[30px] hover:rounded-br-[30px] hover:cursor-pointer",
     
