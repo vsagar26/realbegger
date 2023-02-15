@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         primary: "#ffffff",
         secondary: "#A66EFF",
-        navColor: "#0F4A8A",
+        navColor: "#5F259F",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },

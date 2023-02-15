@@ -33,8 +33,8 @@ const Exchange = () => {
           {items.map((exchange)=>(
             <section className={`flex flex-col `}>
               <div className={`flex flex-row gap-4`}>
-                <li key={exchange.id} className={`list-none sm:px-12 py-4 bg-[#A66EFF] w-[160px] sm:w-[300px] mt-4 text-center text-[16px] text-white font-normal `}>{exchange.title}</li>
-                <div key={2*exchange.id} className={`list-none px-4 py-4 bg-[#A66EFF] w-[100px] mt-4 text-center text-[16px] text-white font-normal`}>{exchange.rate}</div>
+                <li key={exchange.id} className={`list-none sm:px-12 py-4 bg-[#5F259F] w-[160px] sm:w-[300px] mt-4 text-center text-[16px] text-white font-normal `}>{exchange.title}</li>
+                <div key={2*exchange.id} className={`list-none px-4 py-4 bg-[#5F259F] w-[100px] mt-4 text-center text-[16px] text-white font-normal`}>{exchange.rate}</div>
                 <img src={exchange.img} alt={exchange.site} key={exchange.site} className={`w-[50px] text-white mt-6 hover:bg-[#A66EFF] hover:cursor-pointer hover:rounded-full`} onClick={()=>window.open(exchange.site)}/>
               </div>
             </section>
