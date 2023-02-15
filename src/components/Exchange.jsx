@@ -20,7 +20,7 @@ const Exchange = () => {
     <section>
       <div className={`flex flex-row flex-wrap justify-around items-center px-20 pb-12`}>
         <button className={`bg-[#ffffff] border-[3px] border-[#5F259F] text-[#5F259F] font-poppins px-10 py-2  my-2  ${style.hoverEffect} `} onClick={()=>setItems(exchanges)}>All Types</button>
-        <button className={`bg-[#ffffff] border-[3px] border-[#5F259F text-[#5F259F] font-poppins px-10 py-2  my-2 ${style.hoverEffect}`} onClick={()=>filterItem("diamond")}>Diamond</button>
+        <button className={`bg-[#ffffff] border-[3px] border-[#5F259F] text-[#5F259F] font-poppins px-10 py-2  my-2 ${style.hoverEffect}`} onClick={()=>filterItem("diamond")}>Diamond</button>
         <button className={`bg-[#ffffff] border-[3px] border-[#5F259F] text-[#5F259F] font-poppins px-10 py-2  my-2 ${style.hoverEffect}`} onClick={()=>filterItem("world777")}>World777</button>
         <button className={`bg-[#ffffff] border-[3px] border-[#5F259F] text-[#5F259F] font-poppins px-10 py-2  my-2 ${style.hoverEffect}`} onClick={()=>filterItem("b2b")}>B2B Sites</button>
         <button className={`bg-[#ffffff] border-[3px] border-[#5F259F] text-[#5F259F] font-poppins px-10 py-2  my-2 ${style.hoverEffect}`} onClick={()=>filterItem("skyexchange")}>SkyExchange</button>
