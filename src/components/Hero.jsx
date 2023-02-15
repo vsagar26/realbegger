@@ -12,8 +12,8 @@ const Hero = () => {
             <h2
               className={`${style.heading2} ${style.marginX} ${style.marginY} w-[450px] sm:w-[850px]`}
             >
-              INDIA'S{" "}
-              <span className={`text-[#A66EFF] font-bold neon`}>LARGEST </span>
+              WORLD'S{" "}
+              <span className={`text-[#353535] font-bold neon`}>LARGEST </span>
               ONLINE BETTING
               
               PLATFORM PROVIDER
